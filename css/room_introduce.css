@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
         height: 90%;
     }
     .room_introduce_flex_container {
-        height: 90%;
+        height: 90vh;
     }
     .contents_room_text {
         font-size: 20px;
