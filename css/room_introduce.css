@@ -139,9 +139,9 @@ body::-webkit-scrollbar {
     .room_introduce_flex_container::before {
         height: 90%;
     }
-    .room_introduce_flex_container {
-        height: 70vh;
-    }
+    /* .room_introduce_flex_container {
+        height: 0vh;
+    } */
     .contents_room_text {
         font-size: 20px;
     }
