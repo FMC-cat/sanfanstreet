@@ -139,12 +139,13 @@ body::-webkit-scrollbar {
     .room_introduce_flex_container::before {
         height: 90%;
     }
+    .discribe_container .title {
+        font-size: 40px;
+    }
     .contents_room_text {
         font-size: 20px;
     }
-    .contents_title {
-        font-size: 30px;
-    }
+
     .contents_text {
         font-size: 20px;
     }
