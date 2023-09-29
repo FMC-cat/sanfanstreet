@@ -165,7 +165,10 @@ body::-webkit-scrollbar {
     margin: 1%;
 
 }
-
+.facility_box .img_container2 img[src*="facility6.jpg"],
+.facility_box .img_container2 img[src*="facility7.jpg"] {
+    width: 37vh;
+}
 .facility_box3{
     height: 20vh;
 }
