@@ -113,7 +113,7 @@ body::-webkit-scrollbar {
         display: block;
     }
     .facility_flex_container::before {
-        height: 270%;
+        height: 250%;
     }
 }
 @media (min-width: 1250px) {
