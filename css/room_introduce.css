@@ -137,7 +137,7 @@ body::-webkit-scrollbar {
 }
 @media (max-width: 600px) {
     .room_introduce_flex_container::before {
-        height: 70%;
+        height: 65%;
     }
     .contents_room_text {
         font-size: 20px;
