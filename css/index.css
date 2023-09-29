@@ -61,8 +61,9 @@
     display: none;
     position: absolute;
     cursor: pointer;
-    right: 30px;
+    right: 0px;
     width: 40px;
+    top: 13px
 }
 .navbar .menu_btn img {
     width: 30px;
