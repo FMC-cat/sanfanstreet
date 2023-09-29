@@ -132,20 +132,16 @@ body::-webkit-scrollbar {
         display: none;
     }
     .room_introduce_flex_container::before {
-        height: 105%;
+        height: 115%;
     }
 }
 @media (max-width: 600px) {
     .room_introduce_flex_container::before {
-        height: 90%;
-    }
-    .discribe_container .title {
-        font-size: 40px;
+        height: 55%;
     }
     .contents_room_text {
         font-size: 20px;
     }
-
     .contents_text {
         font-size: 20px;
     }
