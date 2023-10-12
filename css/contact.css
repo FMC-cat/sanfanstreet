@@ -40,8 +40,14 @@
 .contact_box ul li {
     margin-bottom: 3%;
     text-align: center;
+    margin: 0px;
 }
-
+.remark li {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #b70000;
+    list-style-type: none;
+}
 .contact_map{
     background-color: rgb(185, 184, 184);
     height: 40vh;

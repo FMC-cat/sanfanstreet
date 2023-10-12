@@ -105,6 +105,13 @@ body::-webkit-scrollbar {
     margin: 1%;
 
 }
+@media (max-width: 1370px) {
+    .facility_box .img_container img[src*="facility8.jpg"],
+    .facility_box .img_container img[src*="facility9.jpg"] {
+        display: none;
+    }
+}
+
 @media (max-width: 1250px) {
     .facility_box {
         display: none;
