@@ -7,7 +7,7 @@ body::-webkit-scrollbar {
     flex-direction: column;
     margin: auto auto;
     position: relative;
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
 }
 
@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
         display: none;
     } */
     .facility_flex_container::before {
-        height: 290%;
+        height: 350%;
     }
     .facility_box_col .img_container img {
         height: 18vh;
