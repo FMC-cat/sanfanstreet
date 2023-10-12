@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
         display: none;
     } */
     .facility_flex_container::before {
-        height: 220%;
+        height: 290%;
     }
     .facility_box_col .img_container img {
         height: 18vh;
