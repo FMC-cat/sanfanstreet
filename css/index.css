@@ -5,7 +5,7 @@
     flex-direction: column;
     margin: auto auto;
     position: relative;
-    width: 90%;
+    /* width: 90%; */
     height: 98vh;
     margin: 0 auto;
 }
