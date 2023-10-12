@@ -134,11 +134,11 @@ body::-webkit-scrollbar {
     }
 }
 @media (max-width: 600px) {
-    .facility_box_col .text_box .img_container img[src*="facility2.jpg"],
+    /* .facility_box_col .text_box .img_container img[src*="facility2.jpg"],
     .facility_box_col .text_box .img_container img[src*="facility4.jpg"],
     .facility_box_col .text_box .img_container img[src*="facility6.jpg"] {
         display: none;
-    }
+    } */
     .facility_flex_container::before {
         height: 220%;
     }
