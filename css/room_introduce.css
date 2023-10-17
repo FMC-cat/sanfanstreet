@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
     position: absolute;
     content: "";
     width: 100%;
-    height: 75%;
+    height: 115%;
     background-image: url('../img/index_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,7 +72,7 @@ body::-webkit-scrollbar {
     height: 95%;
     flex-grow: 0;
     align-items: center;
-    /* margin-top: 1%; */
+    margin-top: 1%;
 }
 .contents-container-col {
     display: flex;
@@ -81,16 +81,16 @@ body::-webkit-scrollbar {
     height: 95%;
     flex-grow: 0;
     align-items: center;
+    margin: 1%;
 
 }
 .facility-row {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /* width: 100%; */
     height: 95%;
     flex-grow: 0;
     align-items: center;
-    /* margin-top: 1%; */
 }
 .facility-col {
     display: flex;
@@ -99,12 +99,13 @@ body::-webkit-scrollbar {
     height: 95%;
     flex-grow: 0;
     align-items: center;
+    margin: 1%;
 
 }
 .contents_img{
     display: flex;
     width: 70%;
-    height: 30%;
+    height: 42%;
     justify-content: center;
 
 }
@@ -112,7 +113,7 @@ body::-webkit-scrollbar {
 .contents_img img{
     max-height: 100%;
     width: auto;
-    margin-right: 1%;
+    margin: 1%;
     border-radius: 10px;
 }
 
