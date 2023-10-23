@@ -7,17 +7,14 @@ body::-webkit-scrollbar {
     flex-direction: column;
     margin: auto auto;
     position: relative;
-    /* width: 90%; */
-    height: 130vh;
     margin: 0 auto;
-    /* overflow: auto; */
 }
 
 .room_introduce_flex_container::before {
     position: absolute;
     content: "";
     width: 100%;
-    height: 115%;
+    height: 100%;
     background-image: url('../img/index_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,6 +112,7 @@ body::-webkit-scrollbar {
     width: auto;
     margin: 1%;
     border-radius: 10px;
+    width: 60%;
 }
 
 .title_hr{
@@ -132,14 +130,8 @@ body::-webkit-scrollbar {
     .facility-row {
         display: none;
     }
-    .room_introduce_flex_container::before {
-        height: 115%;
-    }
 }
 @media (max-width: 600px) {
-    .room_introduce_flex_container::before {
-        height: 80%;
-    }
     .contents_room_text {
         font-size: 20px;
     }
