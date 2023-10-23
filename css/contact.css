@@ -35,6 +35,9 @@
 .contact_box ul {
     list-style: none;
     padding: 0;
+    margin: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .contact_box ul li {
@@ -43,10 +46,18 @@
     margin: 0px;
 }
 .remark li {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bolder;
     color: #b70000;
     list-style-type: none;
+    margin: 0%;
+    width: 200px;
+    text-align: center; /* 將文本置中 */
+}
+
+.row {
+    display: flex;
+    /* width: 300px; */
 }
 .contact_map{
     background-color: rgb(185, 184, 184);
@@ -65,4 +76,11 @@
 .contents_title {
     font-size: 40px;
     margin: 1%;
+}
+.contents_bus {
+    font-size: 24px;
+    margin-top: 1%;
+}
+.connet {
+    font-size: 18px;
 }
