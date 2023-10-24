@@ -48,14 +48,14 @@ body::-webkit-scrollbar {
     display: flex;
     margin: 1%;
     width: 100%;
-    height: 345px;
+    /* height: 345px; */
 }
 .facility_box .text_box{
     display: flex;
     flex-direction: column;
     width: 40%;
     height: 100%;
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 .facility_box .text_box .title{
     font-size: 25px;
@@ -80,14 +80,6 @@ body::-webkit-scrollbar {
     height: 100%;
     margin: 0 auto;
 }
-/* .facility_box .img_container img {
-    height: 26vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    margin: 1%;
-
-} */
 .facility_box .img_container img {
     height: 160px;
     background-size: contain;
@@ -129,10 +121,7 @@ body::-webkit-scrollbar {
 }
 
 /* 3 */
-/* .facility_box3{
-    height: 20vh;
-} */
-
+/* ... */
 /* col */
 .facility_box_col {
     display: flex;
@@ -178,7 +167,7 @@ body::-webkit-scrollbar {
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 10px;
-    margin: 1%;
+    margin: 0%;
 }
 .facility_box_col .img_container img[src*="facility1.jpg"],
 .facility_box_col .img_container img[src*="facility3.jpg"] {
@@ -215,7 +204,7 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: row;
     margin: 1%;
-    width: 83%;
+    width: 90%;
     height: 180px;
 }
 .facility_box_5_row {
@@ -229,7 +218,7 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: row;
     margin: 1%;
-    width: 100%;
+    width: 90%;
     height: 26vh;
 }
 
@@ -266,10 +255,10 @@ body::-webkit-scrollbar {
     .facility_box_col {
         display: block;
     }
-    .text_box {
+    /* .text_box {
         padding-left: 10%;
         padding-right: 10%;
-    }
+    } */
 }
 @media (min-width: 600px) {
     .facility_box_col {
