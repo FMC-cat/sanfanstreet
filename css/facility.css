@@ -222,7 +222,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     margin: 2%;
     width: 90%;
-    height: 26vh;
+    /* height: 26vh; */
 }
 
 @media (max-width: 1370px) {
