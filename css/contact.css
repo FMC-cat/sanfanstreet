@@ -81,11 +81,41 @@
 .connet {
     font-size: 18px;
 }
+
 .bus_table {
+    width: 82%;
     margin-top: 10px;
     border-collapse: collapse;
 }
+
+.bus_table th, .bus_table td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+}
+
 .bus {
+    font-weight: bold;
     border: 1px solid black;
     padding: 8px;
+}
+
+.bus_table th {
+    background-color: #ccc;
+}
+
+.bus_table td {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 600px) {
+    .table_1 {
+        display: none;
+    }
+}
+@media (min-width: 600px) {
+    .table_2 {
+        display: none;
+    }
 }
