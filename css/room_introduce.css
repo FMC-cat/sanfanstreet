@@ -49,6 +49,8 @@ body::-webkit-scrollbar {
     /* text-align: center; */
     width: 70%;
     font-size: 30px;
+    text-align:center;
+    font-weight:bold;
     margin: 1%;
 }
 
@@ -130,7 +132,11 @@ body::-webkit-scrollbar {
     .facility-row {
         display: none;
     }
+    .contents_text{
+        font-size: 24px;
+    }
 }
+
 @media (max-width: 600px) {
     .contents_room_text {
         font-size: 20px;
